@@ -16,8 +16,13 @@ module.exports = {
 				.setRequired(true)),
 	async execute(interaction) {
 		try {
-			// Différer la réponse
-			await interaction.deferReply({ ephemeral: true });
+			// // Différer la réponse
+			// await interaction.deferReply({ ephemeral: true });             OLD ONE BACKUP
+
+			if (!interaction.deferred) {
+				await interaction.deferReply({ ephemeral: true });
+			}
+			
 
 			// Vérifier le rôle requis
 			const requiredRole = interaction.guild.roles.cache.find(role => role.name === 'Staff');
@@ -65,8 +70,10 @@ module.exports = {
 				const member = await interaction.guild.members.fetch(user.id);
 				await member.ban({ reason: 'A été warn 3 fois.' });
 				await interaction.editReply({ content: `<@${user.id}> a été banni pour avoir accumulé 3 avertissements.`, ephemeral: true });
+				console.log("3 WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARN");
 			} else {
 				await interaction.editReply({ content: `<@${user.id}> a été averti avec succès.`, ephemeral: true });
+				console.log("1 WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARN");
 			}
 
 			// Envoyer un message au salon de logs
