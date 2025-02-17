@@ -74,27 +74,27 @@ const userLevels = sequelize.define('userLevels', {
 		primaryKey: true,
 		autoIncrement: true,
 	},
-    ul_name: {
+	ul_name: {
 		type: Sequelize.STRING,
 		allowNull: false,
 		unique: true,
 	},
-    ul_user_id: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        unique: true,
-    },
-    ul_level: {
-        type: Sequelize.INTEGER,
-        defaultValue: 0,
-        allowNull: false,
-    },
-    ul_xp: {
-        type: Sequelize.INTEGER,
-        defaultValue: 0,
-        allowNull: false,
-    },
-}); 
+	ul_user_id: {
+		type: Sequelize.STRING,
+		allowNull: false,
+		unique: true,
+	},
+	ul_level: {
+		type: Sequelize.INTEGER,
+		defaultValue: 0,
+		allowNull: false,
+	},
+	ul_xp: {
+		type: Sequelize.INTEGER,
+		defaultValue: 0,
+		allowNull: false,
+	},
+});
 
 const badUsers = sequelize.define('badUsers', {
 	pk_badUsers: {
@@ -124,7 +124,7 @@ const staffMembers = sequelize.define('staffMembers', {
 		allowNull: false,
 		unique: true,
 	},
-	sm_staff_name : {
+	sm_staff_name: {
 		type: Sequelize.STRING,
 		allowNull: false,
 	},
@@ -284,4 +284,4 @@ const kicks = sequelize.define('kicks', {
 
 sequelize.sync({ force: false });
 
-module.exports = { Tags, Booster, suggestions, userLevels, badUsers, sequelize, staffMembers, warns, warnRemoves, bans, bansRemoves, kicks};
+module.exports = { Tags, Booster, suggestions, userLevels, badUsers, sequelize, staffMembers, warns, warnRemoves, bans, bansRemoves, kicks };

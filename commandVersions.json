@@ -1,0 +1,5 @@
+{
+    "ban": { "version": "1.05", "hash": "abc123" },
+    "kick": { "version": "1.02", "hash": "def456" },
+    "ping": { "version": "1.01", "hash": "ghi789" }
+}

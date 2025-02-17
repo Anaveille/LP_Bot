@@ -1,0 +1,106 @@
+{
+    "ping": {
+        "version": "1.03",
+        "hash": "2a666e3ba88e93fecec7ca0017228cfb"
+    },
+    "r34": {
+        "version": "1.00",
+        "hash": "1b13a6bc354f03e568d83f75fb0b038f"
+    },
+    "forcesmashorpass": {
+        "version": "1.00",
+        "hash": "42b001cadd10f93ea4f41f5c2f282491"
+    },
+    "getlevel": {
+        "version": "1.00",
+        "hash": "9c23757bdfa80e0ec354c99ad829f473"
+    },
+    "addstaff": {
+        "version": "1.00",
+        "hash": "94ed76e65f7bf9e7cb83a65242d30534"
+    },
+    "ban": {
+        "version": "1.01",
+        "hash": "f867fe29e31ef1e7ee78d37a62c97cce"
+    },
+    "renameall": {
+        "version": "1.00",
+        "hash": "2b5ed6d6b9ae5a48cbe54ae5d74fc55d"
+    },
+    "hackban": {
+        "version": "1.00",
+        "hash": "a6b8a4b63a455e78b9994a97262a5068"
+    },
+    "kick": {
+        "version": "1.00",
+        "hash": "e3ccb9449f9333b1b29b09e53583182f"
+    },
+    "resetname": {
+        "version": "1.00",
+        "hash": "b6c61bbc3d327e015c0b18ead80e51dc"
+    },
+    "warn": {
+        "version": "1.00",
+        "hash": "ac6689b9c7e08405bcc030baa14d67df"
+    },
+    "remove": {
+        "version": "1.00",
+        "hash": "22fe1ecd81b753b2d81db8d7be37e155"
+    },
+    "rappel": {
+        "version": "1.00",
+        "hash": "3d472f3fa7f24ade6e7872053675173b"
+    },
+    "addtag": {
+        "version": "1.00",
+        "hash": "d37cb4a45696b504989d8e4bfc18a422"
+    },
+    "deletetag": {
+        "version": "1.00",
+        "hash": "ebb35c8c3eaa082805cd16920154d21a"
+    },
+    "taginfo": {
+        "version": "1.00",
+        "hash": "caf5f458b30e3b5b39d6ca0dc7234530"
+    },
+    "edittag": {
+        "version": "1.00",
+        "hash": "5c03accddfbd193dc584a32da2459ad1"
+    },
+    "resettag": {
+        "version": "1.00",
+        "hash": "f746e2820c08bf402d715a272405181b"
+    },
+    "showtags": {
+        "version": "1.00",
+        "hash": "8f0b60f0c78f7e0ce66bf6d57f34dc3d"
+    },
+    "tag": {
+        "version": "1.00",
+        "hash": "88622c017ad25b4d0e93d82eef43f220"
+    },
+    "pub": {
+        "version": "1.00",
+        "hash": "473ddab66580747bd39a715890e5842c"
+    },
+    "reload": {
+        "version": "1.00",
+        "hash": "88fa0e5b84144c1b92f82be2157d8609"
+    },
+    "server-info": {
+        "version": "1.00",
+        "hash": "9bec0716662672840bb248e10ca97c91"
+    },
+    "suggérer": {
+        "version": "1.00",
+        "hash": "e21d5faffbde51aada2d3af495d4e0ac"
+    },
+    "user": {
+        "version": "1.00",
+        "hash": "307758a4152beaa09d0a9487eebb584b"
+    },
+    "concours": {
+        "version": "1.08",
+        "hash": "71b875120fe9f460be7df2b47bbe7306"
+    }
+}
